@@ -1,10 +1,183 @@
 const express = require('express');
 const userController = require('../controllers/user');
 const taskController = require('../controllers/task');
+const { authenticate, requireAdmin } = require('../middleware');
 
 const router = express.Router();
 
-// User routes
+// Authentication routes
+/**
+ * @swagger
+ * /api/auth/register:
+ *   post:
+ *     summary: Register a new user
+ *     tags: [Authentication]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - email
+ *               - password
+ *               - first_name
+ *               - last_name
+ *             properties:
+ *               email:
+ *                 type: string
+ *                 format: email
+ *               password:
+ *                 type: string
+ *                 minLength: 6
+ *               first_name:
+ *                 type: string
+ *               last_name:
+ *                 type: string
+ *               role:
+ *                 type: string
+ *                 enum: [user, admin]
+ *                 default: user
+ *     responses:
+ *       201:
+ *         description: User registered successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: string
+ *                   example: success
+ *                 data:
+ *                   type: object
+ *                   properties:
+ *                     user:
+ *                       type: object
+ *                     token:
+ *                       type: string
+ *       409:
+ *         description: User already exists
+ */
+router.post('/auth/register', userController.register);
+
+/**
+ * @swagger
+ * /api/auth/login:
+ *   post:
+ *     summary: Login user
+ *     tags: [Authentication]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - email
+ *               - password
+ *             properties:
+ *               email:
+ *                 type: string
+ *                 format: email
+ *               password:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Login successful
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: string
+ *                   example: success
+ *                 data:
+ *                   type: object
+ *                   properties:
+ *                     user:
+ *                       type: object
+ *                     token:
+ *                       type: string
+ *       401:
+ *         description: Invalid credentials
+ */
+router.post('/auth/login', userController.login);
+
+/**
+ * @swagger
+ * /api/auth/profile:
+ *   get:
+ *     summary: Get current user profile
+ *     tags: [Authentication]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: User profile
+ *       401:
+ *         description: Authentication required
+ *   put:
+ *     summary: Update user profile
+ *     tags: [Authentication]
+ *     security:
+ *       - bearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               first_name:
+ *                 type: string
+ *               last_name:
+ *                 type: string
+ *               email:
+ *                 type: string
+ *                 format: email
+ *     responses:
+ *       200:
+ *         description: Profile updated successfully
+ *       401:
+ *         description: Authentication required
+ */
+router.get('/auth/profile', authenticate, userController.getProfile);
+router.put('/auth/profile', authenticate, userController.updateProfile);
+
+/**
+ * @swagger
+ * /api/auth/change-password:
+ *   put:
+ *     summary: Change user password
+ *     tags: [Authentication]
+ *     security:
+ *       - bearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - currentPassword
+ *               - newPassword
+ *             properties:
+ *               currentPassword:
+ *                 type: string
+ *               newPassword:
+ *                 type: string
+ *                 minLength: 6
+ *     responses:
+ *       200:
+ *         description: Password changed successfully
+ *       401:
+ *         description: Authentication required or current password incorrect
+ */
+router.put('/auth/change-password', authenticate, userController.changePassword);
+
+// User routes (Admin only)
 /**
  * @swagger
  * /api/users:
@@ -73,8 +246,8 @@ const router = express.Router();
  *       409:
  *         description: Email already exists
  */
-router.get('/users', userController.getAllUsers);
-router.post('/users', userController.createUser);
+router.get('/users', authenticate, requireAdmin, userController.getAllUsers);
+router.post('/users', authenticate, requireAdmin, userController.createUser);
 
 /**
  * @swagger
@@ -95,7 +268,7 @@ router.post('/users', userController.createUser);
  *       404:
  *         description: User not found
  */
-router.get('/users/:id', userController.getUserById);
+router.get('/users/:id', authenticate, requireAdmin, userController.getUserById);
 
 // Task routes
 /**
@@ -185,8 +358,8 @@ router.get('/users/:id', userController.getUserById);
  *       201:
  *         description: Task created successfully
  */
-router.get('/tasks', taskController.getAllTasks);
-router.post('/tasks', taskController.createTask);
+router.get('/tasks', authenticate, taskController.getAllTasks);
+router.post('/tasks', authenticate, taskController.createTask);
 
 /**
  * @swagger
@@ -234,7 +407,7 @@ router.post('/tasks', taskController.createTask);
  *       404:
  *         description: Task not found
  */
-router.get('/tasks/:id', taskController.getTaskById);
-router.patch('/tasks/:id/status', taskController.updateTaskStatus);
+router.get('/tasks/:id', authenticate, taskController.getTaskById);
+router.patch('/tasks/:id/status', authenticate, taskController.updateTaskStatus);
 
 module.exports = router;

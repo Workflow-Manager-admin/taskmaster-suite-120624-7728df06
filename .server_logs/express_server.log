@@ -1,0 +1,314 @@
+
+> minimal-express-app@1.0.0 dev
+> nodemon src/server.js
+
+[33m[nodemon] 3.1.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src/**/*[39m
+[33m[nodemon] watching extensions: js,json[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Server running at http://0.0.0.0:3001
+API Documentation available at http://0.0.0.0:3001/docs
+Database connection has been established successfully.
+Database synchronized successfully.
+Database service initialized successfully
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Server running at http://0.0.0.0:3001
+API Documentation available at http://0.0.0.0:3001/docs
+Database connection has been established successfully.
+Database synchronized successfully.
+Database service initialized successfully
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+(node:10713) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/User.js:58
+=======
+^^^
+
+SyntaxError: Unexpected token '==='
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api/src/models/index.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Server running at http://0.0.0.0:3001
+API Documentation available at http://0.0.0.0:3001/docs
+Database connection has been established successfully.
+Database synchronized successfully.
+Database service initialized successfully

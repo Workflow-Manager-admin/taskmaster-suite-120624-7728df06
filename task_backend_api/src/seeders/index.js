@@ -17,7 +17,7 @@ async function seedDatabase() {
     // Create admin user
     const adminUser = await User.create({
       email: 'admin@example.com',
-      password: 'admin123', // In production, this should be hashed
+      password: 'admin123', // Will be hashed by model hook
       first_name: 'Admin',
       last_name: 'User',
       role: 'admin',
@@ -26,7 +26,7 @@ async function seedDatabase() {
     // Create regular user
     const regularUser = await User.create({
       email: 'user@example.com',
-      password: 'user123', // In production, this should be hashed
+      password: 'user123', // Will be hashed by model hook
       first_name: 'Regular',
       last_name: 'User',
       role: 'user',

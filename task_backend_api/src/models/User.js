@@ -1,5 +1,6 @@
 const { DataTypes, Model } = require('sequelize');
 const { sequelize } = require('../config/database');
+const bcrypt = require('bcryptjs');
 
 /**
  * User model for storing user information
@@ -31,6 +32,27 @@ class User extends Model {
   toSafeJSON() {
     const { password, ...safeUser } = this.toJSON();
     return safeUser;
+  }
+
+  // PUBLIC_INTERFACE
+  /**
+   * Validate password against stored hash
+   * @param {string} password - Plain text password to validate
+   * @returns {Promise<boolean>} True if password is valid, false otherwise
+   */
+  async validatePassword(password) {
+    return await bcrypt.compare(password, this.password);
+  }
+
+  // PUBLIC_INTERFACE
+  /**
+   * Hash password before saving
+   * @param {string} password - Plain text password to hash
+   * @returns {Promise<string>} Hashed password
+   */
+  static async hashPassword(password) {
+    const saltRounds = 12;
+    return await bcrypt.hash(password, saltRounds);
   }
 }
 
@@ -103,6 +125,18 @@ User.init(
         fields: ['email'],
       },
     ],
+    hooks: {
+      beforeCreate: async (user) => {
+        if (user.password) {
+          user.password = await User.hashPassword(user.password);
+        }
+      },
+      beforeUpdate: async (user) => {
+        if (user.changed('password')) {
+          user.password = await User.hashPassword(user.password);
+        }
+      },
+    },
   }
 );
 
