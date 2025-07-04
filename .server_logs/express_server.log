@@ -12,3 +12,458 @@ API Documentation available at http://0.0.0.0:3001/docs
 Database connection has been established successfully.
 Database synchronized successfully.
 Database service initialized successfully
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Initializing database...
+Server running at http://0.0.0.0:3001
+API Documentation available at http://0.0.0.0:3001/docs
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting database service initialization...
+Initializing database...
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting database service initialization...
+Initializing database...
+Starting server initialization...
+Database initialization in progress, waiting...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Uncaught Exception: Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+Received uncaughtException, shutting down gracefully...
+HTTP server closed
+Database connection closed gracefully.
+Database connection closed
+Graceful shutdown completed
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting server initialization...
+Starting database service initialization...
+Initializing database...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Server running at http://0.0.0.0:3001
+API Documentation available at http://0.0.0.0:3001/docs
+Environment: development
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting server initialization...
+Starting database service initialization...
+Initializing database...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Uncaught Exception: Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+Received uncaughtException, shutting down gracefully...
+HTTP server closed
+Database connection closed gracefully.
+Database connection closed
+Graceful shutdown completed
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting server initialization...
+Starting database service initialization...
+Initializing database...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Uncaught Exception: Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+Received uncaughtException, shutting down gracefully...
+HTTP server closed
+Database connection closed gracefully.
+Database connection closed
+Graceful shutdown completed
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting server initialization...
+Starting database service initialization...
+Initializing database...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Uncaught Exception: Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+Received uncaughtException, shutting down gracefully...
+HTTP server closed
+Database connection closed gracefully.
+Database connection closed
+Graceful shutdown completed
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+.[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Initializing database...
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting database service initialization...
+Initializing database...
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting database service initialization...
+Initializing database...
+Starting server initialization...
+Database initialization in progress, waiting...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Server running at http://0.0.0.0:3001
+API Documentation available at http://0.0.0.0:3001/docs
+Environment: development
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting server initialization...
+Starting database service initialization...
+Initializing database...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Uncaught Exception: Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+Received uncaughtException, shutting down gracefully...
+HTTP server closed
+Database connection closed gracefully.
+Database connection closed
+Graceful shutdown completed
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting server initialization...
+Starting database service initialization...
+Initializing database...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Uncaught Exception: Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+Received uncaughtException, shutting down gracefully...
+HTTP server closed
+Database connection closed gracefully.
+Database connection closed
+Graceful shutdown completed
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting server initialization...
+Starting database service initialization...
+Initializing database...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Server running at http://0.0.0.0:3001
+API Documentation available at http://0.0.0.0:3001/docs
+Environment: development
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting server initialization...
+Starting database service initialization...
+Initializing database...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Server running at http://0.0.0.0:3001
+API Documentation available at http://0.0.0.0:3001/docs
+Environment: development
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        [32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Initializing database...
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1844:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+
+Node.js v18.20.6
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting database service initialization...
+Initializing database...
+Server running at http://0.0.0.0:3001
+API Documentation available at http://0.0.0.0:3001/docs
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting database service initialization...
+Initializing database...
+Starting server initialization...
+Database initialization in progress, waiting...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Uncaught Exception: Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+Received uncaughtException, shutting down gracefully...
+HTTP server closed
+Database connection closed gracefully.
+Database connection closed
+Graceful shutdown completed
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting server initialization...
+Starting database service initialization...
+Initializing database...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Uncaught Exception: Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+Received uncaughtException, shutting down gracefully...
+HTTP server closed
+Database connection closed gracefully.
+Database connection closed
+Graceful shutdown completed
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting server initialization...
+Starting database service initialization...
+Initializing database...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Server running at http://0.0.0.0:3001
+API Documentation available at http://0.0.0.0:3001/docs
+Environment: development
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting server initialization...
+Starting database service initialization...
+Initializing database...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Uncaught Exception: Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+Received uncaughtException, shutting down gracefully...
+HTTP server closed
+Database connection closed gracefully.
+Database connection closed
+Graceful shutdown completed
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+Starting server initialization...
+Starting database service initialization...
+Initializing database...
+Database connection has been established successfully.
+Synchronizing database models...
+Database synchronized successfully.
+Database service initialized successfully.
+Database initialization completed successfully.
+Uncaught Exception: Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at doListen (node:net:2014:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3001
+}
+Received uncaughtException, shutting down gracefully...
+HTTP server closed
+Database connection closed gracefully.
+Database connection closed
+Graceful shutdown completed
+[32m[nodemon] clean exit - waiting for changes before restart[39m
