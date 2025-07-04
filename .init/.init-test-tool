@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/taskmaster-suite-120624-7728df06/task_backend_api"
+}
